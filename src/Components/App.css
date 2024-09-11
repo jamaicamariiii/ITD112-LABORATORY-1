@@ -1,0 +1,81 @@
+/* Container for the overall layout */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100vh; /* Full viewport height */
+  box-sizing: border-box;
+}
+
+/* Section for the Dengue Data form and uploader */
+.form-section {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* List section to hold the data and make it scrollable */
+.list-section {
+  flex: 2;
+  overflow-y: auto; /* Make the list scrollable */
+  max-width: 60%;
+}
+
+/* Center the section titles */
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-align: center; /* Center the text */
+  font-size: 3rem; /* Large font size */
+  font-weight: bold; /* Optional: make the text bold */
+  color: #1e88e5; /* Blue color */
+  margin-bottom: 20px; /* Space below the title */
+  padding: 10px; /
+}
+
+/* Styling for the header and the title */
+.App-header {
+  text-align: center;
+  text-align: center; /* Center the text */
+  font-size: 3rem; /* Large font size */
+  font-weight: bold; /* Optional: make the text bold */
+  color: #1e88e5; /* Blue color */
+  margin-bottom: 20px; /* Space below the title */
+  padding: 10px; /
+}
+
+/* Styling for the main title with gradient blue and centering */
+.app-title {
+  background: linear-gradient(to right, #1e88e5, #42a5f5, #64b5f6); /* Gradient blue */
+  color: white;
+  padding: 20px 40px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem; /* Larger font size */
+  width: 100%; /* Full width of the page */
+}
+
+/* Styling for form input and buttons */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, button {
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* Optional button hover effect */
+button:hover {
+  background-color: #0056b3; /* Slightly darker color on hover */
+}

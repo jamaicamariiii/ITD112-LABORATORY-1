@@ -1,0 +1,187 @@
+.dengue-data-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dengue-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Center the Dengue Data List title */
+.dengue-data-container h2 {
+  text-align: center; /* Center align the text */
+  margin-bottom: 20px; /* Space below the title */
+  color: #1e88e5; 
+}
+
+.dengue-table th, .dengue-table td {
+  border: 1px solid #007bff;
+  padding: 10px;
+  text-align: left;
+}
+
+.dengue-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.dengue-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination-button {
+  background-color: #007bff; /* Blue background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.pagination-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.pagination-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-size: 1rem;
+  margin: 0 10px;
+}
+
+.blue-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Filter container styles */
+.filter-container {
+  display: flex;
+  justify-content: flex-end; /* Align filters to the right */
+  margin-bottom: 20px;
+}
+
+/* Filter input styles */
+.filter-input {
+  margin-left: 10px; /* Space between filter inputs */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Specific styling for filter inputs if needed */
+.filter-container input[type="text"],
+.filter-container input[type="date"] {
+  width: 200px; /* Adjust width as needed */
+}
+
+.blue-button.delete {
+  background-color: #dc3545;
+}
+
+.edit-form input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+}
+
+.edit-form button {
+  margin: 5px;
+}
+
+.chart-container h3 {
+  color: #004080; /* Blue text */
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+.chart-container {
+  margin-top: 50px; /* Space between pagination and chart */
+}
+
+.dengue-table th {
+  background-color: #004080; /* Blue shade */
+  color: white;
+}
+
+.CsvUploader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9; /* Light background */
+  border: 2px solid #007bff; /* Border with primary color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 40px; /* More space inside the box for a cleaner look */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deeper shadow for more depth */
+  width: 400px; /* Adjusted fixed width */
+  margin: 50px auto; /* Center horizontally and add top margin */
+  transition: transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Add hover effect for div */
+.CsvUploader:hover {
+  transform: translateY(-10px); /* Slight lift effect on hover */
+}
+
+/* Styling the file input */
+input[type="file"] {
+  margin-bottom: 30px; /* Spacing between file input and button */
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc; /* Soft border for input */
+  border-radius: 5px; /* Rounded corners for input */
+  width: 100%; /* Full width input */
+  cursor: pointer; /* Pointer cursor for file input */
+}
+
+/* Styling the upload button */
+.upload {
+  background-color: #007bff; /* Primary blue background */
+  color: white;
+  border: none;
+  padding: 12px 30px; /* Adjusted padding for a larger button */
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Hover and click transition */
+  width: 100%; /* Full width button */
+  text-align: center;
+}
+
+/* Hover effect for the upload button */
+.upload:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Active/clicked button effect */
+.upload:active {
+  transform: scale(0.98); /* Slight shrink effect when clicked */
+  background-color: #004080; /* Even darker blue */
+}
